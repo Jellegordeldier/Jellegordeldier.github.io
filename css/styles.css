@@ -7925,7 +7925,6 @@ textarea.form-control-lg {
 }
 
 
-
 .text-body {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-body-rgb), var(--bs-text-opacity)) !important;
@@ -11630,6 +11629,9 @@ body {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  display: block;
+    height: 1000px;
+    margin: -10px 0 0;
 }
 .signup-section .form-signup input {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
