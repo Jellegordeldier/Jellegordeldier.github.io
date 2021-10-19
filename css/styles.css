@@ -7653,6 +7653,7 @@ textarea.form-control-lg {
 .py-4 {
   padding-top: 1.5rem !important;
   padding-bottom: 1.5rem !important;
+  border: 2px solid #951fd7;
 }
 
 .py-5 {
@@ -11506,7 +11507,7 @@ body {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #26FFDF;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #5c42a7;
@@ -11523,7 +11524,7 @@ body {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #0008ff;
     outline: none;
     border-bottom: 0.25rem solid #64a19d;
   }
