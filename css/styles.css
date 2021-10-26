@@ -9440,7 +9440,7 @@ textarea.form-control-lg {
     text-align: center !important;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1500px) {
   .float-lg-start {
     float: left !important;
   }
@@ -9947,6 +9947,7 @@ textarea.form-control-lg {
     padding-right: 1.5rem !important;
     padding-left: 1.5rem !important;
   }
+
 
   .px-lg-5 {
     padding-right: 3rem !important;
