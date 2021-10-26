@@ -85,7 +85,7 @@ body {
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
-  color: var(--bs-body-color);
+  color: #564095;
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
@@ -7653,6 +7653,7 @@ textarea.form-control-lg {
 .py-4 {
   padding-top: 1.5rem !important;
   padding-bottom: 1.5rem !important;
+  border: 2px solid #951fd7;
 }
 
 .py-5 {
@@ -7924,10 +7925,6 @@ textarea.form-control-lg {
   color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-white {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
-}
 
 .text-body {
   --bs-text-opacity: 1;
@@ -9440,7 +9437,7 @@ textarea.form-control-lg {
     text-align: center !important;
   }
 }
-@media (min-width: 1500px) {
+@media (min-width: 992px) {
   .float-lg-start {
     float: left !important;
   }
@@ -9949,10 +9946,11 @@ textarea.form-control-lg {
   }
 
 
-  .px-lg-5 {
+  .px-lg-5 { 
     padding-right: 3rem !important;
     padding-left: 3rem !important;
   }
+ 
 
   .py-lg-0 {
     padding-top: 0 !important;
@@ -11511,13 +11509,13 @@ body {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #26FFDF;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #000;
+    color: #5c42a7;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #000;
+    color: #5c42a7;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -11528,7 +11526,7 @@ body {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #0008ff;
     outline: none;
     border-bottom: 0.25rem solid #64a19d;
   }
@@ -11561,7 +11559,7 @@ body {
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: linear-gradient(rgba(38, 255, 223, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
@@ -11629,11 +11627,14 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #B026FF 200%), url("../assets/img/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  display: block;
+    height: 1000px;
+    margin: -10px 0 0;
 }
 .signup-section .form-signup input {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
